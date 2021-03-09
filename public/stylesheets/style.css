@@ -4,6 +4,7 @@ header {
 
 .navbar .navbar-brand {
   color: #4592af;
+  font-family: 'Akaya Telivigala', cursive;
 }
 
 .navbar .navbar-brand:hover {
@@ -17,7 +18,6 @@ header {
   height: 360px;
   background: #dddddd center center url('https://media.cntraveler.com/photos/5b22bfdff04a775484b99dfc/5:4/w_2810,h_2248,c_limit/Alo-Restaurant__2018_Raffi-Photo-2.jpg');
   background-size: cover;
-  filter: blur(3px);
 }
 
 .search-bar .search-bar-outer {
@@ -29,6 +29,7 @@ header {
   border: 0;
   margin-top: 5px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Akaya Telivigala', cursive;
 }
 
 .search-bar .search-bar-inner h4 {
@@ -52,10 +53,11 @@ header {
 
 .card {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 .card:hover {
-  border-radius: 10%;
+  border-radius: 8%;
 }
 
 .card img{
@@ -63,7 +65,7 @@ header {
 }
 
 .card img:hover {
-  border-radius: 10%;
+  border-radius: 8%;
 }
 
 .card-title{
@@ -79,7 +81,7 @@ header {
 
 .restaurant-show-title {
   position: relative;
-  top: -40px;
+  top: 1px;
   color: rgba(10, 245, 225, 0.753);
   text-align: center;
   font-size: 3rem;
@@ -106,4 +108,11 @@ header {
     height: auto;
   }
   
+}
+
+.card-footer {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: larger;
+  color: #aaaaaa;
+  border-top: none;
 }
